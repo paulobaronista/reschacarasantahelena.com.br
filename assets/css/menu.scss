@@ -1,0 +1,102 @@
+ .menu {
+     width: 100%;
+     position: fixed;
+     background-color: #1f312e;
+     border-color: transparent;
+     min-height: auto;
+     margin-bottom: 0px;
+     border: 0px solid transparent;
+     z-index: 200;
+     border-radius: 0px;
+
+     .navbar-brand {
+         float: left;
+         height: auto;
+             padding: 9px 0 0 15px;
+     }
+
+     .navbar-right {
+         padding: 25px 0px;
+
+         li>a {
+             font-family: 'Optima';
+             font-weight: 100;
+             font-style: normal;
+             color: #ffffff;
+             text-transform: uppercase;
+             border-right: solid 1px #ffffff;
+             padding: 0px 15px;
+             font-size: 14px;
+             line-height: 14px;
+         }
+
+         li>a:focus,
+         li>a:hover {
+             color: #ffffff;
+         }
+
+         li:last-child a {
+             border-right: solid 0px transparent;
+         }
+     }
+ }
+
+ .menu .navbar-toggle:focus,
+ .menu .navbar-toggle:hover {
+     background-color: transparent;
+ }
+
+ /* Extra Small */
+ @media(max-width:767px) {
+     .menu {
+
+         .navbar-brand {
+             float: left;
+             height: auto;
+             padding: 2px 0 0 15px;
+         }
+
+         .navbar-collapse,
+         .navbar-form {
+             border-color: transparent;
+         }
+
+         .navbar-nav {
+             margin: 0 -15px 7.5px;
+         }
+
+         .navbar-right {
+             padding: 0px 0px;
+
+             li>a {
+                 border-right: solid 0px transparent;
+                 border-bottom: solid 1px #ffffff;
+                 padding: 15px 15px;
+             }
+
+             li>a:focus,
+             li>a:hover {
+                 color: #ffffff;
+             }
+
+             li:last-child a {
+                 border-right: solid 0px transparent;
+                 border-bottom: solid 0px transparent;
+             }
+         }
+
+         .navbar-collapse {
+             border-top: 0px solid transparent;
+             box-shadow: none;
+         }
+     }
+ }
+
+ /* Small */
+ @media(min-width:768px) and (max-width:991px) {}
+
+ /* Medium */
+ @media(min-width:992px) and (max-width:1199px) {}
+
+ /* Large */
+ @media(min-width:1200px) {}

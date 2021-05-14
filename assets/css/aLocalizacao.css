@@ -1,0 +1,63 @@
+.aLocalizacao {
+  padding-bottom: 70px;
+}
+
+.aLocalizacao .bg-aLocalizacao {
+  background: url(../images/bg-projetoDeCasas.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.aLocalizacao .bg-aLocalizacao p {
+  font-family: 'Optima';
+  font-weight: 100;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+
+.aLocalizacao .txt {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.aLocalizacao .txt p {
+  font-family: 'Optima';
+  font-weight: 100;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #4c4034;
+  font-size: 13px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  border-bottom: solid 1px #4c4034;
+  display: inline-block;
+  padding-right: 50px;
+}
+
+.aLocalizacao .txt-1 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.aLocalizacao .txt-1 p {
+  font-family: 'Optima';
+  font-weight: 100;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #4c4034;
+  font-size: 13px;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+
+/* Extra Small */
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=aLocalizacao.css.map */

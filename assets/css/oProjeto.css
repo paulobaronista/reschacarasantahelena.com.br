@@ -1,0 +1,66 @@
+.oProjeto .bg-oProjeto {
+  background: url(../images/bg-aNatureza.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.oProjeto .bg-oProjeto p {
+  font-family: 'Optima';
+  font-weight: 100;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+
+.oProjeto .txt {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.oProjeto .txt p {
+  font-family: 'Optima';
+  font-weight: 100;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #4c4034;
+  font-size: 13px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  border-bottom: solid 1px #4c4034;
+  display: inline-block;
+  padding-right: 50px;
+}
+
+.oProjeto .txt-2 {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.oProjeto .txt-2 .box {
+  border-top: solid 1px #4c4034;
+  border-bottom: solid 1px #4c4034;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.oProjeto .txt-2 .box p {
+  font-family: 'Optima';
+  font-weight: 100;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #4c4034;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 3px;
+}
+
+/* Extra Small */
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=oProjeto.css.map */

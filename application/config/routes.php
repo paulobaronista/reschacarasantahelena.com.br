@@ -39,6 +39,7 @@
  */
 
 $route['default_controller'] = "home";
+$route['politicadeprivacidade'] = "home/politicadeprivacidade";
 $route['404_override'] = '';
 
 /* End of file routes.php */

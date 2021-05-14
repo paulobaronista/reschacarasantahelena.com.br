@@ -1,0 +1,69 @@
+.banner {
+  padding-top: 64px;
+}
+
+.banner .bg-home {
+  background: url(../images/bg-home.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 214px;
+}
+
+.banner .bg-home img {
+  margin-top: -85px;
+  margin-bottom: -70px;
+}
+
+.banner .txt {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.banner .txt p {
+  font-family: 'Optima';
+  font-weight: 100;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 38px;
+  letter-spacing: 2px;
+  background-color: #4c4034;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.banner .txt-1 {
+  margin-bottom: 50px;
+}
+
+.banner .txt-1 p {
+  font-family: 'Optima';
+  font-weight: 100;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #4c4034;
+  font-size: 13px;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .banner {
+    padding-top: 50px;
+  }
+  .banner .bg-home {
+    min-height: auto;
+  }
+  .banner .bg-home img {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-width: 80%;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=home.css.map */

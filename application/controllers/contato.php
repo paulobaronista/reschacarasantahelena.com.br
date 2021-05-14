@@ -7,9 +7,9 @@ class Contato extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'LANDINGPAGEMODELO';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Residencial Chácara Santa Helena';
+        $data['description'] = 'O Residencial Chácara Santa Helena resgata uma forma única de morar com sofisticação inspirada nos prazeres da natureza. Um loteamento de alto padrão para apenas 53 famílias, no Alto da Boa Vista, com projeto urbanístico de Isay Weinfeld e paisagismo de Renata Tilli.';
+        $data['keywords'] = 'casas em condomínio, condomínio fechado, condomínio de alto luxo, empreendimento imobiliário, condomínios residenciais, imóveis na planta, casas de alto padrão, lançamentos imobiliários, imóveis exclusivos, isay weindfeld, imóveis de luxo, casas de luxo a venda, condomínios de luxo, renata tilli';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
@@ -18,15 +18,15 @@ class Contato extends CI_Controller{
             $email = $this->input->post('email');
             $telefone = $this->input->post('phone');
             $mensagem = utf8_decode($this->input->post('mss'));
-            $assunto = utf8_decode('Contato enviado pelo site www.landingpagemodelo.com.br');
+            $assunto = utf8_decode('Contato enviado pelo site www.reschacarasantahelena.com.br');
 
             $this->load->library('email');
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@landingpagemodelo.com.br","$nome"); //senha: xxxxxx
-            $this->email->to('contato@landingpagemodelo.com.br');
-            $this->email->cc('landingpagemodelo.com, paulobaronista@gmail.com');
+            $this->email->from("contato@digiclick.com.br","Residencial Chácara Santa Helena");
+            $this->email->to('rodrigo.vieira@jveiga.com.br');
+            $this->email->cc('paulobaronista@gmail.com, renata@spicycomm.com.br, alebertone@spicycomm.com.br');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -43,12 +43,6 @@ class Contato extends CI_Controller{
                 redirect('contato/fail');
             }
 
-            //            if($this->email->send()){
-            //                redirect('http://racklavaloucas.com.br/contato/obrigado');
-            //            }else{
-            //                redirect('http://racklavaloucas.com.br/contato/fail');
-            //            }
-
         }
 
         $this->load->view('html_header', $data);
@@ -60,9 +54,9 @@ class Contato extends CI_Controller{
     }
 
     public function obrigado(){
-        $data['title'] = 'LANDINGPAGEMODELO';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Residencial Chácara Santa Helena';
+        $data['description'] = 'O Residencial Chácara Santa Helena resgata uma forma única de morar com sofisticação inspirada nos prazeres da natureza. Um loteamento de alto padrão para apenas 53 famílias, no Alto da Boa Vista, com projeto urbanístico de Isay Weinfeld e paisagismo de Renata Tilli.';
+        $data['keywords'] = 'casas em condomínio, condomínio fechado, condomínio de alto luxo, empreendimento imobiliário, condomínios residenciais, imóveis na planta, casas de alto padrão, lançamentos imobiliários, imóveis exclusivos, isay weindfeld, imóveis de luxo, casas de luxo a venda, condomínios de luxo, renata tilli';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -74,9 +68,9 @@ class Contato extends CI_Controller{
     }
 
     public function fail(){
-        $data['title'] = 'LANDINGPAGEMODELO';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Residencial Chácara Santa Helena';
+        $data['description'] = 'O Residencial Chácara Santa Helena resgata uma forma única de morar com sofisticação inspirada nos prazeres da natureza. Um loteamento de alto padrão para apenas 53 famílias, no Alto da Boa Vista, com projeto urbanístico de Isay Weinfeld e paisagismo de Renata Tilli.';
+        $data['keywords'] = 'casas em condomínio, condomínio fechado, condomínio de alto luxo, empreendimento imobiliário, condomínios residenciais, imóveis na planta, casas de alto padrão, lançamentos imobiliários, imóveis exclusivos, isay weindfeld, imóveis de luxo, casas de luxo a venda, condomínios de luxo, renata tilli';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);

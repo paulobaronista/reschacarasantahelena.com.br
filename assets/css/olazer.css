@@ -1,0 +1,81 @@
+.oLazer {
+  padding-bottom: 90px;
+}
+
+.oLazer .bg-oLazer {
+  background: url(../images/bg-projetoDeCasas.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.oLazer .bg-oLazer p {
+  font-family: 'Optima';
+  font-weight: 100;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+
+.oLazer .txt {
+  margin-top: 20px;
+}
+
+.oLazer .txt p {
+  font-family: 'Optima';
+  font-weight: 100;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #4c4034;
+  font-size: 13px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  border-bottom: solid 1px #4c4034;
+  display: inline-block;
+  padding-right: 50px;
+}
+
+.oLazer .txt-1 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.oLazer .txt-1 p {
+  font-family: 'Optima';
+  font-weight: 100;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #4c4034;
+  font-size: 13px;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+
+.oLazer .txt-2 p {
+  font-family: 'Optima';
+  font-weight: 100;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #4c4034;
+  font-size: 13px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  margin-top: 30px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .oLazer .txt-2 p {
+    margin-top: 15px;
+    text-align: center;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=olazer.css.map */
