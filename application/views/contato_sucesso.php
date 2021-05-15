@@ -243,8 +243,7 @@
                     <p>
                         • sala de musculação<br />
                         • sala de massagem<br />
-                        • sala de leitura<br />
-                        • coworking
+                        • sala de leitura
                     </p>
                 </div>
             </div>
@@ -332,6 +331,11 @@
         </div>
     </div>
 </div>
+
+<?php
+if (isset($email_enviado))
+    echo $email_enviado;
+?>
 
 <div id="aviso" class="aviso text-center">
     <div>

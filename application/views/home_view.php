@@ -243,8 +243,7 @@
                     <p>
                         • sala de musculação<br />
                         • sala de massagem<br />
-                        • sala de leitura<br />
-                        • coworking
+                        • sala de leitura
                     </p>
                 </div>
             </div>

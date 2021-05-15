@@ -1,7 +1,7 @@
 $(document).ready(function () {
 	$("#close").click(function () {
 		$("#aviso").hide();
-		window.location.href = "http://www.reschacarasantahelena.com.br/"
+		window.location.href = "http://reschacarasantahelena.com.br/"
 	});
 });
 
