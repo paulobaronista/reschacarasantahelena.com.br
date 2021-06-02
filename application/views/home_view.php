@@ -13,11 +13,11 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul id="#menuCenter" class="nav navbar-nav navbar-right">
-                <li><a class="scrollink active" href="#aLocalizacao">Localização</a></li>
-                <li><a class="scrollink" href="#oProjeto">Projeto</a></li>
+                <li><a class="scrollink active" href="#oProjeto">Projeto</a></li>
                 <li><a class="scrollink" href="#aNatureza">Natureza</a></li>
                 <li><a class="scrollink" href="#oLazer">Lazer</a></li>
                 <li><a class="scrollink" href="#projetoDeCasas">Projeto de Casas</a></li>
+                <li><a class="scrollink" href="#aLocalizacao">Localização</a></li>
                 <li><a class="scrollink" href="#contato">Contato</a></li>
             </ul>
         </div>
@@ -38,12 +38,75 @@
             </div>
         </div>
     </div>
+    <div class="oProjeto">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tt">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/tt_oProjeto.png" alt="O projeto">
+                </div>
+            </div>
+        </div>
+        <div class="container txt-2">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
+                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                        <p style="font-size: 24px;">
+                            <strong>RESIDENCIAL TRIPLE A</strong>
+                        </p>
+                        </p>
+                        <br />
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-7">
+                        <p>
+                            Projeto urbanístico<br />
+                            de Isay Weinfeld
+                        </p>
+                        <br />
+                        <p>
+                            Paisagismo de<br />
+                            Renata Tilli
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
+                        <p>
+                            Pronto para Construir
+                        </p>
+                        <br />
+                        <p>
+                            PRIVILÉGIO RESERVADO<br />
+                            A APENAS 53 FAMÍLIAS
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="video" class="video">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-md-offset-2">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vsWmldohQiA"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container txt">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                 <p>
                     SUA VIDA JUNTO A NATUREZA DENTRO DA CIDADE
                 </p>
+            </div>
+        </div>
+    </div>
+    <div class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-md-offset-2">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/foto-aerea.jpg" alt="Foto">
+                </div>
             </div>
         </div>
     </div>
@@ -60,51 +123,6 @@
                     O inimaginável tornou-se possível. Mas certamente por tempo muito limitado.<br />
                     Imagine, realize e viva.
                 </p>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="aLocalizacao" class="aLocalizacao">
-    <div class="container-fluid bg-aLocalizacao">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <p>ALTO DA BOA VISTA.<br />
-                    UM BAIRRO INIMAGINAVELMENTE ÚNICO.</p>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/localizacao.jpg" alt="Localização">
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid txt">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-right padding-off">
-                <p>
-                    a localização
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="container txt-1">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <p>
-                    Imagine um bairro tão verde, tão tranquilo e tão agradável que nem parece pertencer<br />
-                    a uma das maiores metrópoles do planeta. O Alto da Boa Vista é um daqueles lugares que,<br />
-                    de tão reservados, completos e especiais,<br />
-                    são verdadeiros tesouros destinados àqueles que sabem viver bem.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/aLocalizacao.png" alt="A localizacao">
             </div>
         </div>
     </div>
@@ -129,35 +147,8 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 img-oProjeto">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/oProjeto.png" alt="O projeto">
-            </div>
-        </div>
-    </div>
-    <div class="container txt-2">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-7">
-                    <p>
-                        Projeto urbanístico<br />
-                        de Isay Weinfeld
-                    </p>
-                    <br />
-                    <p>
-                        Paisagismo de<br />
-                        Renata Tilli
-                    </p>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
-                    <p>
-                        Pronto para Construir
-                    </p>
-                    <br />
-                    <p>
-                        PRIVILÉGIO RESERVADO<br />
-                        A APENAS 53 FAMÍLIAS
-                    </p>
-                </div>
             </div>
         </div>
     </div>
@@ -281,10 +272,57 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/prontoPraConstruir.png" alt="Pronto pra construir">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/prontoPraConstruir2.png" alt="Pronto pra construir">
             </div>
         </div>
     </div>
+</div>
+<div id="aLocalizacao" class="aLocalizacao">
+    <div class="container-fluid bg-aLocalizacao">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                <p>ALTO DA BOA VISTA.<br />
+                    UM BAIRRO INIMAGINAVELMENTE ÚNICO.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid txt">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-right padding-off">
+                <p>
+                    a localização
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container txt-1">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                <p>
+                    Imagine um bairro tão verde, tão tranquilo e tão agradável que nem parece pertencer<br />
+                    a uma das maiores metrópoles do planeta. O Alto da Boa Vista é um daqueles lugares que,<br />
+                    de tão reservados, completos e especiais,<br />
+                    são verdadeiros tesouros destinados àqueles que sabem viver bem.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/aLocalizacao.png" alt="A localizacao">
+            </div>
+        </div>
+    </div>
+    <div class="container margin-top-60">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/localizacao.jpg" alt="Localização">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="projetoDeCasas" class="projetoDeCasas">
     <div class="container txt-2">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-lg-offset-3 box text-center">

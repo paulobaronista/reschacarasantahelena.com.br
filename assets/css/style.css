@@ -559,8 +559,8 @@ p {
 }
 
 .banner .txt {
-  margin-top: 80px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
 .banner .txt p {
@@ -578,6 +578,7 @@ p {
 }
 
 .banner .txt-1 {
+  margin-top: 40px;
   margin-bottom: 50px;
 }
 
@@ -610,6 +611,10 @@ p {
 /* Small */
 /* Medium */
 /* Large */
+.projetoDeCasas {
+  margin-bottom: 70px;
+}
+
 .projetoDeCasas .bg-projetoDeCasas {
   background: url(../images/bg-projetoDeCasas.jpg) no-repeat;
   background-position: center center;
@@ -664,7 +669,7 @@ p {
 }
 
 .projetoDeCasas .txt-2 {
-  margin-top: 70px;
+  margin-top: 20px;
   margin-bottom: 50px;
 }
 
@@ -810,7 +815,7 @@ p {
 
 .aNatureza .txt-2 {
   margin-top: 70px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .aNatureza .txt-2 .box {
@@ -894,6 +899,14 @@ p {
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 3px;
+}
+
+.oProjeto .tt {
+  padding-top: 80px;
+}
+
+.oProjeto .img-oProjeto {
+  margin-bottom: 50px;
 }
 
 /* Extra Small */

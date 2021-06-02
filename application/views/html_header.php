@@ -33,7 +33,7 @@
     );
     echo meta($meta);
     echo link_tag('assets/css/bootstrap.min.css');
-    echo link_tag('assets/css/style.css?v=0.1.6');
+    echo link_tag('assets/css/style.css?v=0.2.1');
     ?>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
