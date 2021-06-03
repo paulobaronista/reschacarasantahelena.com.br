@@ -38,6 +38,43 @@ class Contato extends CI_Controller{
                             </body></html>");
 
             if($this->email->send()){
+				
+				$usuario = 'integracao@integracao.com';
+				$hash_senha = '6e2ee25b6cea73b078a1e377fccb12976c468b8e';
+				$url = 'https://jeronimo.construtordevendas.com.br/api/cvio/lead';
+				$dadosLead = array(
+					"acao" => 'salvar_editar',
+					'nome' => json_encode($nome),
+					'email' => $email,
+					'telefone' =>  $telefone,
+					'modulo' => 'gestor',
+					'conversao' => 'site',
+					'data_cad_conversao' => date('d/m/Y'),
+					"idempreendimento" => 
+					array( "0" => '9'),
+					"campos_adicionais" => 
+					array( "envio" => 'site'),
+					"interacoes"  => array( "0" => array(  "tipo" => "E",
+					"descricao" => json_encode($mensagem ))),
+					"origem" => "SI",
+					"permitir_alteracao" => "true"
+				);
+
+				$dadosLead = json_encode($dadosLead);
+
+				$cabecalho = array(
+					'email: ' . $usuario,
+					'token: ' . $hash_senha,
+					'Content-Type: application/json',
+					'Content-Length: ' . strlen($dadosLead)
+				);
+
+				$curlHandler = curl_init($url);
+				curl_setopt($curlHandler, CURLOPT_POSTFIELDS, $dadosLead);
+				curl_setopt($curlHandler, CURLOPT_RETURNTRANSFER, TRUE);
+				curl_setopt($curlHandler, CURLOPT_HTTPHEADER, $cabecalho);
+				$retorno = curl_exec($curlHandler);
+				
                 redirect('contato/obrigado');
             }else{
                 redirect('contato/fail');

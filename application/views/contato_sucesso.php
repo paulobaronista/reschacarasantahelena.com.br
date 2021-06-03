@@ -56,26 +56,28 @@
                         </p>
                         <br />
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-7">
-                        <p>
-                            Projeto urbanístico<br />
-                            de Isay Weinfeld
-                        </p>
-                        <br />
-                        <p>
-                            Paisagismo de<br />
-                            Renata Tilli
-                        </p>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
-                        <p>
-                            Pronto para Construir
-                        </p>
-                        <br />
-                        <p>
-                            PRIVILÉGIO RESERVADO<br />
-                            A APENAS 53 FAMÍLIAS
-                        </p>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <p>
+                                Pronto para <br />Construir
+                            </p>
+                            <br />
+                            <p>
+                                Paisagismo de<br />
+                                Renata Tilli
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <p>
+                                Projeto urbanístico<br />
+                                de Isay Weinfeld
+                            </p>
+                            <br />
+                            <p>
+                                PRIVILÉGIO RESERVADO<br />
+                                A APENAS 53 FAMÍLIAS
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

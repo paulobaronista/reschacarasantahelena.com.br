@@ -24,7 +24,7 @@ class Contato extends CI_Controller{
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@digiclick.com.br","Residencial Chácara Santa Helena");
+            $this->email->from("reschacarasantahelena21@gmail.com","Residencial Chácara Santa Helena");
             $this->email->to('rodrigo.vieira@jveiga.com.br');
             $this->email->cc('paulobaronista@gmail.com, renata@spicycomm.com.br, alebertone@spicycomm.com.br');
 
@@ -36,6 +36,9 @@ class Contato extends CI_Controller{
                     Telefone:	{$telefone}<br/>
                         Mensagem:	{$mensagem}<br/>
                             </body></html>");
+
+                            
+            $this->email->send();
 
             if($this->email->send()){
 				
