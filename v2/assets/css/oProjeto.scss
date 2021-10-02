@@ -1,0 +1,119 @@
+.oProjeto {
+
+    .bg-oProjeto {
+        background: url(../images/bg-aNatureza.jpg) no-repeat;
+        background-position: center center;
+        background-size: cover;
+        padding-top: 35px;
+        padding-bottom: 35px;
+
+        p {
+            font-family: 'Optima';
+            font-weight: 100;
+            font-style: normal;
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: 2px;
+        }
+    }
+
+    .txt {
+        margin-top: 20px;
+        margin-bottom: 40px;
+
+        p {
+            font-family: 'Optima';
+            font-weight: 100;
+            font-style: normal;
+            text-transform: uppercase;
+            color: #4c4034;
+            font-size: 13px;
+            line-height: 28px;
+            letter-spacing: 2px;
+            border-bottom: solid 1px #4c4034;
+            display: inline-block;
+            padding-right: 50px;
+        }
+    }
+
+    .txt-2 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        .box {
+            border-top: solid 1px #4c4034;
+            border-bottom: solid 1px #4c4034;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            p {
+                font-family: 'Optima';
+                font-weight: 100;
+                font-style: normal;
+                text-transform: uppercase;
+                color: #4c4034;
+                font-size: 15px;
+                line-height: 20px;
+                letter-spacing: 1px;
+            }
+        }
+    }
+
+    .tt {
+        padding-top: 80px;
+    }
+
+    .img-oProjeto {
+        margin-bottom: 50px;
+    }
+}
+
+
+/* Extra Small */
+@media(max-width:767px) {
+    .oProjeto {
+
+        .bg-oProjeto {
+            padding-top: 35px;
+            padding-bottom: 35px;
+
+            p {
+                font-size: 13px;
+                line-height: 23px;
+                letter-spacing: 2px;
+            }
+        }
+
+        .tt {
+            padding-top: 40px;
+        }
+
+
+        .txt-2 {
+            margin-top: 40px;
+            margin-bottom: 50px;
+
+            .box {
+                padding-top: 30px;
+                padding-bottom: 20px;
+
+                p {
+                    font-size: 12px;
+                    line-height: 17px;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

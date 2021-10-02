@@ -1,0 +1,110 @@
+footer {
+    position: relative;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    figcaption {
+        font-family: 'Optima';
+        font-weight: 100;
+        font-style: normal;
+        color: #000;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-family: 'Optima';
+        font-weight: 100;
+        font-style: normal;
+        color: #000;
+    }
+
+    figcaption {
+        font-size: 13px;
+        line-height: 13px;
+    }
+
+    p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .phone-whats {
+        margin-top: 40px;
+    }
+
+    .canpuig {
+        margin-top: 30px;
+    }
+
+    .soloambiente {
+        margin-top: 40px;
+    }
+
+    .navbar-nav {
+        margin-top: 20px;
+
+        li {
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
+
+        li>a {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            font-family: 'Optima';
+            font-weight: 100;
+            font-style: normal;
+            color: #000;
+            text-transform: uppercase;
+            font-size: 11px;
+            line-height: 11px;
+            border-right: 1px solid #000;
+        }
+
+        li>a:focus,
+        li>a:hover {
+            text-decoration: underline;
+            background-color: transparent;
+        }
+
+        li:last-child a {
+            border-right: 0px solid transparent;
+        }
+    }
+}
+
+
+/* Extra Small */
+@media(max-width:767px) {
+    footer {
+        padding-top: 30px;
+        padding-bottom: 15px;
+
+        p {
+            font-size: 11px;
+            line-height: 15px;
+        }
+
+        .phone-whats {
+            margin-top: 20px;
+        }
+
+        .canpuig {
+            margin-top: 20px;
+        }
+
+        .space {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

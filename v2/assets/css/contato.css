@@ -1,0 +1,88 @@
+.contato .form-control {
+  display: block;
+  width: 100%;
+  height: 60px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #4c4034;
+  border: 1px solid #4c4034;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-family: 'Metropolis';
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.contato .form-control::-webkit-input-placeholder {
+  color: #4c4034;
+}
+
+.contato .form-control:-ms-input-placeholder {
+  color: #4c4034;
+}
+
+.contato .form-control::-ms-input-placeholder {
+  color: #4c4034;
+}
+
+.contato .form-control::placeholder {
+  color: #4c4034;
+}
+
+.contato .form-group {
+  margin-bottom: 25px;
+}
+
+.contato textarea {
+  height: 229px !important;
+}
+
+.contato .dt {
+  background-color: #3d352b;
+  height: 40px;
+}
+
+.contato .dt1 {
+  padding-right: 0px;
+}
+
+.contato .btn_enviar {
+  font-family: 'Metropolis';
+  font-weight: 500;
+  font-style: normal;
+  padding: 6px 12px;
+  font-size: 17px;
+  line-height: 17px;
+  width: 100%;
+  height: 40px;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  background-color: #2a3935;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .contato .dt1 {
+    padding: 0px;
+  }
+  .contato h5 {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+  }
+  .contato p {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=contato.css.map */

@@ -1,0 +1,105 @@
+.aNatureza {
+
+    .bg-aNatureza {
+        background: url(../images/bg-aNatureza.jpg) no-repeat;
+        background-position: center center;
+        background-size: cover;
+        padding-top: 35px;
+        padding-bottom: 35px;
+
+        p {
+            font-family: 'Optima';
+            font-weight: 100;
+            font-style: normal;
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: 2px;
+        }
+    }
+
+    .txt {
+        margin-top: 20px;
+        margin-bottom: 40px;
+
+        p {
+            font-family: 'Optima';
+            font-weight: 100;
+            font-style: normal;
+            text-transform: uppercase;
+            color: #4c4034;
+            font-size: 13px;
+            line-height: 28px;
+            letter-spacing: 2px;
+            border-bottom: solid 1px #4c4034;
+            display: inline-block;
+            padding-right: 50px;
+        }
+    }
+
+    .txt-2 {
+        margin-top: 70px;
+        margin-bottom: 70px;
+
+        .box {
+            border-top: solid 1px #4c4034;
+            border-bottom: solid 1px #4c4034;
+            padding-top: 30px;
+            padding-bottom: 30px;
+
+            p {
+                font-family: 'Optima';
+                font-weight: 100;
+                font-style: normal;
+                text-transform: uppercase;
+                color: #4c4034;
+                font-size: 20px;
+                line-height: 35px;
+                letter-spacing: 3px;
+            }
+        }
+    }
+}
+
+
+/* Extra Small */
+@media(max-width:767px) {
+    .aNatureza {
+
+        .bg-aNatureza {
+
+            p {
+                font-size: 13px;
+                line-height: 23px;
+                letter-spacing: 2px;
+            }
+        }
+
+
+        .txt-2 {
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+            .box {
+                padding-top: 30px;
+                padding-bottom: 30px;
+
+                p {
+                    font-size: 18px;
+                    line-height: 28px;
+                    letter-spacing: 3px;
+                }
+            }
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

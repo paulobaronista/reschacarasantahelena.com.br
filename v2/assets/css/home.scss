@@ -1,0 +1,90 @@
+.banner {
+    padding-top: 64px;
+
+    .bg-home {
+        background: url(../images/bg-home.jpg) no-repeat;
+        background-position: center center;
+        background-size: cover;
+        min-height: 214px;
+        margin-top: -5px;
+
+        img {
+            margin-top: -70px;
+            margin-bottom: -44px;
+        }
+    }
+
+    .txt {  
+        margin-top: 50px;
+        margin-bottom: 40px;
+
+        p {
+            font-family: 'Optima';
+            font-weight: 100;
+            font-style: normal;
+            text-transform: uppercase;
+            color: #ffffff;
+            font-size: 18px;
+            line-height: 38px;
+            letter-spacing: 2px;
+            background-color: #4c4034;
+            display: inline-block;
+            padding: 0 20px;
+        }
+    }
+
+    .txt-1 {
+        margin-top: 40px;
+        margin-bottom: 50px;
+
+        p {
+            font-family: 'Optima';
+            font-weight: 100;
+            font-style: normal;
+            text-transform: uppercase;
+            color: #4c4034;
+            font-size: 13px;
+            line-height: 28px;
+            letter-spacing: 2px;
+        }
+    }
+}
+
+
+
+/* Extra Small */
+@media(max-width:767px) {
+    .banner {
+        padding-top: 50px;
+
+        .bg-home {
+            min-height: auto;
+
+            img {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                max-width: 80%;
+            }
+        }
+        .txt-1 {
+            margin-top: 30px;
+            margin-bottom: 30px;
+    
+            p {
+                font-size: 10px;
+                line-height: 20px;
+                letter-spacing: 2px;
+            }
+        }
+    }
+
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}
